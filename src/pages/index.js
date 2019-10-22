@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="The Grind Is Never Over" />
+    <SEO title="Is the Grind Over?" />
     <h1 style={{ textAlign: `center` }}>Haha, no.</h1>
     <div style={{ maxWidth: `602px`, margin: `1rem auto` }}>
       <Image />
