@@ -57,6 +57,10 @@ function SEO({ description, lang, meta, title }) {
           content: thinkin,
         },
         {
+          property: `twitter:image`,
+          content: thinkin,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
