@@ -58,7 +58,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `twitter:image`,
-          content: thinkin,
+          content: `https://isthegrindover.com${thinkin}`,
         },
         {
           name: `twitter:card`,
