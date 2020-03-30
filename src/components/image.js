@@ -29,4 +29,23 @@ const Image = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
 };
 
+const ArcaImage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      placeholderImage: file(relativePath: { eq: "horrible.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 204) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `);
+
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+};
+
+
 export default Image;
+
+export ArcaImage;
