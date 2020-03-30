@@ -49,3 +49,4 @@ const ArcaImage = () => {
 export default Image;
 
 export ArcaImage;
+export Image;
