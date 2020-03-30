@@ -45,5 +45,4 @@ const ArcaImage = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
 };
 
-export ArcaImage;
-export Image;
+export { ArcaImage, Image };
